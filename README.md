@@ -1,14 +1,14 @@
-\# Digital Design Basics – SystemVerilog RTL \& Verification Portfolio
+# Digital Design Basics – SystemVerilog RTL \& Verification Portfolio
 
 
 
-\## 📌 Overview
+## 📌 Overview
 
 
 
-This repository presents a structured collection of \*\*digital design and verification projects\*\* implemented using \*\*SystemVerilog\*\*.
+This repository presents a structured collection of **digital design and verification projects** implemented using **SystemVerilog**.
 
-It demonstrates core skills in \*\*RTL design\*\*, \*\*verification architecture\*\*, and \*\*hardware modeling\*\*, following a modular and scalable methodology inspired by \*\*UVM-style environments\*\*.
+It demonstrates core skills in **RTL design**, **verification architecture**, and **hardware modeling**, following a modular and scalable methodology inspired by **UVM-style environments**.
 
 
 
@@ -16,41 +16,40 @@ The goal of this repository is to showcase a solid foundation for roles in:
 
 
 
-\* Digital Design
+* Digital Design
 
-\* Design Verification
-
-\* ASIC / VLSI Engineering
+* Design Verification
 
 
 
-\---
+
+---
 
 
 
-\## 🧠 Key Skills Demonstrated
+## 🧠 Key Skills Demonstrated
 
 
 
-\* RTL Design (Combinational, Datapath, FSM)
+* RTL Design (Combinational, Datapath, FSM)
 
-\* SystemVerilog-based Verification
+* SystemVerilog-based Verification
 
-\* Constrained Random Testing
+* Constrained Random Testing
 
-\* Scoreboard-based Functional Checking
+* Scoreboard-based Functional Checking
 
-\* Modular Testbench Architecture
+* Modular Testbench Architecture
 
-\* Debugging \& Functional Validation
-
-
-
-\---
+* Debugging \& Functional Validation
 
 
 
-\## 🏗️ Repository Structure
+---
+
+
+
+## 🏗️ Repository Structure
 
 
 
@@ -60,9 +59,9 @@ rtl/
 
 ├── combinational/
 
-│   ├── full\_adder.sv
+│   ├── full_adder.sv
 
-│   ├── full\_subtractor.sv
+│   ├── full_subtractor.sv
 
 │   └── mux.sv
 
@@ -70,7 +69,7 @@ rtl/
 
 ├── datapath/
 
-│   ├── rca\_4bit.sv
+│   ├── rca_4bit.sv
 
 │   └── alu8bit.sv
 
@@ -78,19 +77,19 @@ rtl/
 
 └── fsm/
 
-&#x20;   ├── seq\_detector.sv
+├── seq_detector.sv
 
-&#x20;   └── traffic\_light.sv
+└── traffic_light.sv
 
 
 
 verification/
 
-├── <design>\_tb/
+├── <design>_tb/
 
 │   ├── interface.sv
 
-│   ├── sequence\_item.sv
+│   ├── sequence_item.sv
 
 │   ├── generator.sv
 
@@ -102,63 +101,63 @@ verification/
 
 │   ├── environment.sv
 
-│   └── <design>\_tb.sv
+│   └── <design>_tb.sv
 
 ```
 
 
 
-\---
+---
 
 
 
-\## 📂 Projects Included
+## 📂 Projects Included
 
 
 
-\### 🔹 Combinational Logic
+### 🔹 Combinational Logic
 
 
 
-\* \*\*Full Adder\*\*
+* **Full Adder**
 
-\* \*\*Full Subtractor\*\*
+* **Full Subtractor**
 
-\* \*\*2:1 Multiplexer (MUX)\*\*
-
-
-
-\### 🔹 Datapath Design
+* **2:1 Multiplexer (MUX)**
 
 
 
-\* \*\*4-bit Ripple Carry Adder (RCA)\*\*
-
-\* \*\*8-bit ALU\*\*
+### 🔹 Datapath Design
 
 
 
-&#x20; \* Arithmetic, Logical, Shift, Comparison operations
+* **4-bit Ripple Carry Adder (RCA)**
 
-&#x20; \* Handles edge cases (e.g., division by zero)
-
-
-
-\### 🔹 Finite State Machines (FSM)
+* **8-bit ALU**
 
 
 
-\* \*\*Sequence Detector\*\*
+* Arithmetic, Logical, Shift, Comparison operations
 
-\* \*\*Traffic Light Controller\*\*
-
-
-
-\---
+* Handles edge cases (e.g., division by zero)
 
 
 
-\## ⚙️ Verification Methodology
+### 🔹 Finite State Machines (FSM)
+
+
+
+* **Sequence Detector**
+
+* **Traffic Light Controller**
+
+
+
+---
+
+
+
+## ⚙️ Verification Methodology
 
 
 
@@ -166,63 +165,63 @@ Each design is verified using a reusable architecture consisting of:
 
 
 
-\* \*\*Interface\*\* → connects DUT and testbench
+* **Interface** → connects DUT and testbench
 
-\* \*\*Transaction (Sequence Item)\*\* → represents stimulus
+* **Transaction (Sequence Item)** → represents stimulus
 
-\* \*\*Generator\*\* → produces randomized inputs
+* **Generator** → produces randomized inputs
 
-\* \*\*Driver\*\* → applies stimulus to DUT
+* **Driver** → applies stimulus to DUT
 
-\* \*\*Monitor\*\* → captures DUT outputs
+* **Monitor** → captures DUT outputs
 
-\* \*\*Scoreboard\*\* → checks correctness
+* **Scoreboard** → checks correctness
 
-\* \*\*Environment\*\* → integrates all components
-
-
-
-This structure mimics a \*\*lightweight UVM-style flow\*\* without full UVM overhead.
+* **Environment** → integrates all components
 
 
 
-\---
+This structure mimics a **lightweight UVM-style flow**  without full UVM overhead.
 
 
 
-\## 🧪 Verification Features
+---
 
 
 
-\* Constrained random stimulus generation
-
-\* Functional checking via scoreboards
-
-\* Separation of stimulus and checking
-
-\* Reusable verification components
-
-\* Deterministic simulation control
+## 🧪 Verification Features
 
 
 
-\---
+* Constrained random stimulus generation
+
+* Functional checking via scoreboards
+
+* Separation of stimulus and checking
+
+* Reusable verification components
+
+* Deterministic simulation control
 
 
 
-\## 🚀 How to Run
+---
 
 
 
-\### Using ModelSim / QuestaSim
+## 🚀 How to Run
+
+
+
+### Using ModelSim / QuestaSim
 
 
 
 ```bash
 
-vlog rtl/\*\*/\*.sv verification/\*\*/\*.sv
+vlog rtl/**/*.sv verification/**/*.sv
 
-vsim <top\_tb\_module>
+vsim <top_tb_module>
 
 run -all
 
@@ -236,7 +235,7 @@ Example:
 
 ```bash
 
-vsim full\_adder\_tb
+vsim full_adder_tb
 
 run -all
 
@@ -244,11 +243,11 @@ run -all
 
 
 
-\---
+---
 
 
 
-\## 📊 Example Output
+## 📊 Example Output
 
 
 
@@ -256,7 +255,7 @@ run -all
 
 ================================
 
-&#x20;     SIMULATION REPORT
+SIMULATION REPORT
 
 ================================
 
@@ -270,55 +269,55 @@ FAIL = 0
 
 
 
-\---
+---
 
 
 
-\## 🎯 Design Highlights
+## 🎯 Design Highlights
 
 
 
-\* Clean and synthesizable RTL
+* Clean and synthesizable RTL
 
-\* Consistent naming conventions
+* Consistent naming conventions
 
-\* Separation between design and verification
+* Separation between design and verification
 
-\* Scalable structure for larger projects
+* Scalable structure for larger projects
 
-\* Industry-relevant verification approach
-
-
-
-\---
+* Industry-relevant verification approach
 
 
 
-\## 📈 Future Improvements
+---
 
 
 
-\* Functional coverage (covergroups)
-
-\* Assertions (SVA)
-
-\* Migration to full UVM
-
-\* CI integration for automated simulation
-
-\* Parameterized and reusable RTL modules
+## 📈 Future Improvements
 
 
 
-\---
+* Functional coverage (covergroups)
+
+* Assertions (SVA)
+
+* Migration to full UVM
+
+* CI integration for automated simulation
+
+* Parameterized and reusable RTL modules
 
 
 
-\## 👤 Author
+---
 
 
 
-\*\*Kareem Salah\*\*
+## 👤 Author
+
+
+
+**Kareem Salah** 
 
 Electronics Engineering Student
 
@@ -326,15 +325,15 @@ Focused on Digital IC Design \& Verification
 
 
 
-\---
+---
 
 
 
-\## 📬 Notes
+## 📬 Notes
 
 
 
-This repository is part of a continuous learning journey toward \*\*professional ASIC Design \& Verification roles\*\*.
+This repository is part of a continuous learning journey toward **professional ASIC Design \& Verification roles**.
 
 Feedback and suggestions are always welcome.
 
