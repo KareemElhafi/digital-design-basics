@@ -56,52 +56,30 @@ The goal of this repository is to showcase a solid foundation for roles in:
 ```
 
 rtl/
-
 ├── combinational/
-
 │   ├── full_adder.sv
-
 │   ├── full_subtractor.sv
-
 │   └── mux.sv
-
 │
-
 ├── datapath/
-
 │   ├── rca_4bit.sv
-
 │   └── alu8bit.sv
-
 │
-
 └── fsm/
-
 ├── seq_detector.sv
-
 └── traffic_light.sv
 
 
-
 verification/
-
 ├── <design>_tb/
-
-│   ├── interface.sv
-
-│   ├── sequence_item.sv
-
-│   ├── generator.sv
-
-│   ├── driver.sv
-
-│   ├── monitor.sv
-
-│   ├── scoreboard.sv
-
-│   ├── environment.sv
-
-│   └── <design>_tb.sv
+     ├── interface.sv
+     ├── sequence_item.sv
+     ├── generator.sv
+     ├── driver.sv
+     ├── monitor.sv
+     ├── scoreboard.sv
+     ├── environment.sv
+     └── <design>_tb.sv
 
 ```
 
